@@ -7,7 +7,7 @@ btn.appendChild(btnTxt);
 
 let boxBtn = document.getElementById("mybutton")
 let txtBox = document.getElementById("myTextbox");
-let boxTxt = txtBox.firstChild;
+let boxTxt = txtBox.val();
 console.log(boxTxt);
 
 let myDiv = document.getElementById("myDiv");
